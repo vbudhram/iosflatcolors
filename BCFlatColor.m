@@ -1,6 +1,5 @@
 //
 //  BCFlatColor.m
-//  Memeizer
 //
 //  Created by Vijay Budhram on 5/21/14.
 //  Copyright (c) 2014 Baby Carrot Productions. All rights reserved.
