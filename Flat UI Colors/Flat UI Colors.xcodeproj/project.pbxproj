@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6AC346A1941687400D79A23 /* BCFlatColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AC34691941687400D79A23 /* BCFlatColor.m */; };
+		D6B321BF1941652C00519BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321BE1941652C00519BE6 /* Foundation.framework */; };
+		D6B321C11941652C00519BE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321C01941652C00519BE6 /* CoreGraphics.framework */; };
+		D6B321C31941652C00519BE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321C21941652C00519BE6 /* UIKit.framework */; };
+		D6B321C91941652C00519BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6B321C71941652C00519BE6 /* InfoPlist.strings */; };
+		D6B321CB1941652C00519BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B321CA1941652C00519BE6 /* main.m */; };
+		D6B321CF1941652C00519BE6 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B321CE1941652C00519BE6 /* BCAppDelegate.m */; };
+		D6B321D21941652C00519BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B321D01941652C00519BE6 /* Main.storyboard */; };
+		D6B321D51941652C00519BE6 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B321D41941652C00519BE6 /* BCViewController.m */; };
+		D6B321D71941652C00519BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B321D61941652C00519BE6 /* Images.xcassets */; };
+		D6B321DE1941652C00519BE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321DD1941652C00519BE6 /* XCTest.framework */; };
+		D6B321DF1941652C00519BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321BE1941652C00519BE6 /* Foundation.framework */; };
+		D6B321E01941652C00519BE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B321C21941652C00519BE6 /* UIKit.framework */; };
+		D6B321E81941652C00519BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6B321E61941652C00519BE6 /* InfoPlist.strings */; };
+		D6B321EA1941652C00519BE6 /* Flat_UI_ColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B321E91941652C00519BE6 /* Flat_UI_ColorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B321E11941652C00519BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B321B31941652C00519BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B321BA1941652C00519BE6;
+			remoteInfo = "Flat UI Colors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6AC34681941687400D79A23 /* BCFlatColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCFlatColor.h; sourceTree = "<group>"; };
+		D6AC34691941687400D79A23 /* BCFlatColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCFlatColor.m; sourceTree = "<group>"; };
+		D6B321BB1941652C00519BE6 /* Flat UI Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flat UI Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B321BE1941652C00519BE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6B321C01941652C00519BE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6B321C21941652C00519BE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6B321C61941652C00519BE6 /* Flat UI Colors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flat UI Colors-Info.plist"; sourceTree = "<group>"; };
+		D6B321C81941652C00519BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6B321CA1941652C00519BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6B321CC1941652C00519BE6 /* Flat UI Colors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flat UI Colors-Prefix.pch"; sourceTree = "<group>"; };
+		D6B321CD1941652C00519BE6 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		D6B321CE1941652C00519BE6 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		D6B321D11941652C00519BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B321D31941652C00519BE6 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		D6B321D41941652C00519BE6 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		D6B321D61941652C00519BE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6B321DC1941652C00519BE6 /* Flat UI ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flat UI ColorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B321DD1941652C00519BE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6B321E51941652C00519BE6 /* Flat UI ColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flat UI ColorsTests-Info.plist"; sourceTree = "<group>"; };
+		D6B321E71941652C00519BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6B321E91941652C00519BE6 /* Flat_UI_ColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flat_UI_ColorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B321B81941652C00519BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321C11941652C00519BE6 /* CoreGraphics.framework in Frameworks */,
+				D6B321C31941652C00519BE6 /* UIKit.framework in Frameworks */,
+				D6B321BF1941652C00519BE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B321D91941652C00519BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321DE1941652C00519BE6 /* XCTest.framework in Frameworks */,
+				D6B321E01941652C00519BE6 /* UIKit.framework in Frameworks */,
+				D6B321DF1941652C00519BE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6B321B21941652C00519BE6 = {
+			isa = PBXGroup;
+			children = (
+				D6B321C41941652C00519BE6 /* Flat UI Colors */,
+				D6B321E31941652C00519BE6 /* Flat UI ColorsTests */,
+				D6B321BD1941652C00519BE6 /* Frameworks */,
+				D6B321BC1941652C00519BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B321BC1941652C00519BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B321BB1941652C00519BE6 /* Flat UI Colors.app */,
+				D6B321DC1941652C00519BE6 /* Flat UI ColorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B321BD1941652C00519BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B321BE1941652C00519BE6 /* Foundation.framework */,
+				D6B321C01941652C00519BE6 /* CoreGraphics.framework */,
+				D6B321C21941652C00519BE6 /* UIKit.framework */,
+				D6B321DD1941652C00519BE6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B321C41941652C00519BE6 /* Flat UI Colors */ = {
+			isa = PBXGroup;
+			children = (
+				D6AC34681941687400D79A23 /* BCFlatColor.h */,
+				D6AC34691941687400D79A23 /* BCFlatColor.m */,
+				D6B321CD1941652C00519BE6 /* BCAppDelegate.h */,
+				D6B321CE1941652C00519BE6 /* BCAppDelegate.m */,
+				D6B321D01941652C00519BE6 /* Main.storyboard */,
+				D6B321D31941652C00519BE6 /* BCViewController.h */,
+				D6B321D41941652C00519BE6 /* BCViewController.m */,
+				D6B321D61941652C00519BE6 /* Images.xcassets */,
+				D6B321C51941652C00519BE6 /* Supporting Files */,
+			);
+			path = "Flat UI Colors";
+			sourceTree = "<group>";
+		};
+		D6B321C51941652C00519BE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B321C61941652C00519BE6 /* Flat UI Colors-Info.plist */,
+				D6B321C71941652C00519BE6 /* InfoPlist.strings */,
+				D6B321CA1941652C00519BE6 /* main.m */,
+				D6B321CC1941652C00519BE6 /* Flat UI Colors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B321E31941652C00519BE6 /* Flat UI ColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B321E91941652C00519BE6 /* Flat_UI_ColorsTests.m */,
+				D6B321E41941652C00519BE6 /* Supporting Files */,
+			);
+			path = "Flat UI ColorsTests";
+			sourceTree = "<group>";
+		};
+		D6B321E41941652C00519BE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B321E51941652C00519BE6 /* Flat UI ColorsTests-Info.plist */,
+				D6B321E61941652C00519BE6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B321BA1941652C00519BE6 /* Flat UI Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B321ED1941652C00519BE6 /* Build configuration list for PBXNativeTarget "Flat UI Colors" */;
+			buildPhases = (
+				D6B321B71941652C00519BE6 /* Sources */,
+				D6B321B81941652C00519BE6 /* Frameworks */,
+				D6B321B91941652C00519BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flat UI Colors";
+			productName = "Flat UI Colors";
+			productReference = D6B321BB1941652C00519BE6 /* Flat UI Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6B321DB1941652C00519BE6 /* Flat UI ColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B321F01941652C00519BE6 /* Build configuration list for PBXNativeTarget "Flat UI ColorsTests" */;
+			buildPhases = (
+				D6B321D81941652C00519BE6 /* Sources */,
+				D6B321D91941652C00519BE6 /* Frameworks */,
+				D6B321DA1941652C00519BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B321E21941652C00519BE6 /* PBXTargetDependency */,
+			);
+			name = "Flat UI ColorsTests";
+			productName = "Flat UI ColorsTests";
+			productReference = D6B321DC1941652C00519BE6 /* Flat UI ColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B321B31941652C00519BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Baby Carrot Productions";
+				TargetAttributes = {
+					D6B321DB1941652C00519BE6 = {
+						TestTargetID = D6B321BA1941652C00519BE6;
+					};
+				};
+			};
+			buildConfigurationList = D6B321B61941652C00519BE6 /* Build configuration list for PBXProject "Flat UI Colors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B321B21941652C00519BE6;
+			productRefGroup = D6B321BC1941652C00519BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B321BA1941652C00519BE6 /* Flat UI Colors */,
+				D6B321DB1941652C00519BE6 /* Flat UI ColorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B321B91941652C00519BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321D71941652C00519BE6 /* Images.xcassets in Resources */,
+				D6B321C91941652C00519BE6 /* InfoPlist.strings in Resources */,
+				D6B321D21941652C00519BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B321DA1941652C00519BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321E81941652C00519BE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B321B71941652C00519BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321D51941652C00519BE6 /* BCViewController.m in Sources */,
+				D6B321CB1941652C00519BE6 /* main.m in Sources */,
+				D6B321CF1941652C00519BE6 /* BCAppDelegate.m in Sources */,
+				D6AC346A1941687400D79A23 /* BCFlatColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B321D81941652C00519BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B321EA1941652C00519BE6 /* Flat_UI_ColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6B321E21941652C00519BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B321BA1941652C00519BE6 /* Flat UI Colors */;
+			targetProxy = D6B321E11941652C00519BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6B321C71941652C00519BE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B321C81941652C00519BE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6B321D01941652C00519BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B321D11941652C00519BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B321E61941652C00519BE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B321E71941652C00519BE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B321EB1941652C00519BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6B321EC1941652C00519BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B321EE1941652C00519BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flat UI Colors/Flat UI Colors-Prefix.pch";
+				INFOPLIST_FILE = "Flat UI Colors/Flat UI Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6B321EF1941652C00519BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flat UI Colors/Flat UI Colors-Prefix.pch";
+				INFOPLIST_FILE = "Flat UI Colors/Flat UI Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6B321F11941652C00519BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flat UI Colors.app/Flat UI Colors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flat UI Colors/Flat UI Colors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flat UI ColorsTests/Flat UI ColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6B321F21941652C00519BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flat UI Colors.app/Flat UI Colors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flat UI Colors/Flat UI Colors-Prefix.pch";
+				INFOPLIST_FILE = "Flat UI ColorsTests/Flat UI ColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B321B61941652C00519BE6 /* Build configuration list for PBXProject "Flat UI Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B321EB1941652C00519BE6 /* Debug */,
+				D6B321EC1941652C00519BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B321ED1941652C00519BE6 /* Build configuration list for PBXNativeTarget "Flat UI Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B321EE1941652C00519BE6 /* Debug */,
+				D6B321EF1941652C00519BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B321F01941652C00519BE6 /* Build configuration list for PBXNativeTarget "Flat UI ColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B321F11941652C00519BE6 /* Debug */,
+				D6B321F21941652C00519BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B321B31941652C00519BE6 /* Project object */;
+}
